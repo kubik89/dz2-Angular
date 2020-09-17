@@ -1,0 +1,4 @@
+<div *ngFor="let post of posts">
+  {{post.userId}} - {{post.title}}
+  <button (click)="getDetails(post)">details</button>
+</div>

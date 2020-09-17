@@ -1,0 +1,12 @@
+<p>comments app works!</p>
+<div *ngFor="let comm1 of comm">
+  Comment Name: {{comm1.name}}<br>
+  PostID: {{comm1.postId}}<br>
+  Email: {{comm1.email}}
+  <button (click)="openLog(comm1)">details</button>
+  <button (click)="getCommDetails(comm1)">All comments to Console</button>
+  <hr>
+</div>
+<p *ngFor="let c of comm1">
+  Body: {{c.body}}
+</p>

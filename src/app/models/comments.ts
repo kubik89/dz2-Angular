@@ -1,0 +1,7 @@
+export interface allComm {
+  postId: number;
+  id: number;
+  name: string;
+  email: string;
+  body: string;
+}
